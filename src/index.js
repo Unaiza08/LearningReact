@@ -35,9 +35,9 @@ const router=createBrowserRouter([
     },
 ])
 root.render(
-  <React.StrictMode> {/*whatever is in this tag will be displayed on the browser */}
+  <React.StrictMode> {/*helps to identify and detect various warnings/errors during the development phase */}
     <App />  {/*app.jsx file */}
-    <RouterProvider router={router}/>   {/*router prop is created and is showing the router object */}
+    <RouterProvider router={router}/>   
   </React.StrictMode>
 );
 

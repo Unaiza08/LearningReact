@@ -11,13 +11,15 @@ function Task2() {
 
        const disp_eatables=eatables().map((elements)=>{
         return(
-            <div key={elements.id}>
+            <>
+          
+            <div key={elements.id} className='mx-5'>
                 <ol>
-                    <li>
-                ID={elements.id} Name={elements.name} Category ={elements.category}
-                </li>
+                    <li><b>ID</b>={elements.id} <b>Name</b>={elements.name} <b>Category</b> ={elements.category}</li>
                 </ol>
             </div>
+           
+            </>
         );
        }
 

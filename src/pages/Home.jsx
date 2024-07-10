@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <div className="flex-1 mx-2 border-2 border-black border-solid rounded-md w-[calc(100vh - 200px)] min-h-8"></div>
     </div>
-    <Link className="focus:bg-emerald-900" to="/task2"><li className="m-5 text-2xl">Task2</li></Link>
+    <Link className="focus:bg-emerald-900" to="/task2"><button className="m-5 text-2xl bg-black text-white p-3">Task2</button></Link>
 
     </>
   );

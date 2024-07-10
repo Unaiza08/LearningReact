@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './components/NavBar'
-import Login from './components/Login'
+import Login from './pages/Login'
 import User from './components/User'
-import Home from './components/Home';
-import About from './components/About';
+import Home from './pages/Home';
+import About from './pages/About';
+import Task2 from './pages/Task2'
 
 import {
   createBrowserRouter,
@@ -32,6 +33,10 @@ const router=createBrowserRouter([
     {
       path: "/about",
       element: <><NavBar/><About/></>,
+    },
+    {
+      path: "/task2",
+      element: <><NavBar/><Task2/></>,
     },
 ])
 root.render(
